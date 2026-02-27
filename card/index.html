@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS card</title>
+    <style>
+        body {
+            background: rgb(145, 147, 148);
+        }
+
+        .parent {
+            background-color: rgb(243, 245, 245);
+            height: 900px;
+            width: 666px;
+            margin-left: 565px;
+            border-radius: 2%;
+        }
+
+        .image {
+            position: relative;
+            left: 22%;
+            top: 1%;
+            padding-right: 50px;
+
+        }
+
+        .image img {
+            border-radius: 4%;
+        }
+
+        .tag-container {
+            display: flex;
+
+            gap: 10px;
+
+            margin-top: 20px;
+
+            margin-bottom: 5px;
+
+            padding-left: 5px;
+            margin-left: 25px;
+
+
+        }
+
+        .tag {
+            border: 1.5px solid black;
+            border-radius: 14%;
+            padding: 2px 8px;
+            font-family: sans-serif;
+            font-size: 14px;
+            background-color: aqua;
+            padding:10px;
+
+        }
+
+
+
+        .button {
+            position: relative;
+            font-size: larger;
+            width: 150px;
+            height: 50px;
+            display: flex;
+            justify-content: right;
+            margin-left: 210px;
+            top: 40px;
+
+        }
+        .button button{
+            background-color: aqua;
+            padding: 10px;
+            border-radius: 15px;
+            cursor: pointer;
+            
+        }
+        .button button:hover{
+            background-color: rgb(253, 253, 253);
+        }
+
+        p {
+            position: relative;
+            font-style: italic;
+            margin: 40px;
+            top: 25px;
+        }
+
+        h1 {
+            margin-top: 0px;
+            position: relative;
+            top: 50px;
+            margin-left: 36px;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="parent">
+        <div class="image">
+            <img src="torn.jpeg" alt="torn city" height="270px" width="350px">
+        </div>
+        <div class="tag-container">
+            <span class="tag">about</span>
+            <span class="tag">rating</span>
+        </div>
+        <div>
+            <h1 style="font-style: italic;">Torn is the best game</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minus, dicta labore dolores saepe fugiat
+                illum beatae architecto consectetur similique! Saepe cum, veritatis numquam illum quibusdam provident
+                obcaecati adipisci odio quos ratione aspernatur possimus exercitationem id cumque ea iure distinctio
+                sapiente temporibus expedita quod ipsam laboriosam deleniti atque! Harum asperiores nostrum incidunt
+                ducimus laborum, sunt aliquid exercitationem ullam id voluptates nisi tempora mollitia explicabo
+                voluptatum quam, modi dolor accusantium tenetur adipisci! Unde dolores autem velit accusantium
+                recusandae tempora at atque veritatis nam quia ratione dolorem quas consectetur laborum obcaecati illo
+                repudiandae natus ipsam possimus, voluptatum provident? Culpa dignissimos consequatur magnam cumque hic
+                sequi earum, quaerat iusto harum nulla sit quidem exercitationem deserunt?</p>
+        </div>
+        <div class="button">
+            <button>
+                <a href="https://www.torn.com/" target="_blank">play now</a>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

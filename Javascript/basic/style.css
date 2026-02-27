@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 22px;
+}
+h1{
+    background-color:blueviolet;
+}
+
+p{
+    color:black;
+}
+
+.buttons{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 15px;
+    background-color: rgb(235, 8, 8);
+    border: solid 2px black;
+    border-radius: 18%;
+}
+.buttons:hover{
+    background-color: rgb(235, 83, 83);
+}
+
+.radiocontainer{
+    display: flex;
+    gap: 12px;
+}

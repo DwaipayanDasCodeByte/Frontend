@@ -1,0 +1,25 @@
+#counter{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family:Helvetica, sans-serif;
+}
+#container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    
+}
+.buttons{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(39, 232, 42);
+    border-radius: 15%;
+    border: solid black 5px;
+    
+}
+.buttons:hover{
+    background-color: rgb(124, 236, 122);
+}

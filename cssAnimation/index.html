@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Css animations</title>
+        <style>
+            .container{
+                background-color: aqua;
+                width: 80vw;
+                height: 80vh;
+            }
+            .box{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 23px;
+                background-color: royalblue;
+                width: 15vw;
+                height: 20vh;
+                animation-name: animation1;
+                animation-duration: 1.5s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-out;
+                animation-direction: reverse;
+                /* animation-timing-function: cubic-bezier(0,0,0,0.96); */
+               animation-delay: 0ms;
+                /* animation : animation1 2s ease-in-out infinite alternate,
+                            animation2 3s ease-in-out infinite alternate; */
+                
+                /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            }
+
+            @keyframes animation1 {
+                from {
+                    background-color: skyblue;
+                    transform: translateX(0);
+                }
+                to {
+                    background-color: aquamarine;
+                    transform: translateX(50vw);
+                }
+            }
+            @keyframes animation2 {
+                0%{
+                    transform: rotate(100deg);
+                }
+                20%{
+                    transform: rotate(200deg);
+                }
+                50%{
+                    transform: rotate(220deg);
+                }
+                80%{
+                    transform: rotate(300deg);
+                }
+                100%{
+                    transform: rotate(310deg);
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+       <div class="container">
+        <div class="box"> box</div>
+       </div> 
+    </body>
+</html>
