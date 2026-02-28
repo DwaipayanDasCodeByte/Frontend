@@ -247,3 +247,67 @@ ul li img:hover {
     font-size: 13px;
     color: rgba(255, 255, 255, 0.5); 
 }
+@media (max-width: 900px) {
+    .box {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .heading, .faq-container, .site-footer {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .content {
+        left: 5vw;
+        width: 90%;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    input[type="email"] {
+        width: 60vw;
+    }
+
+    .logo {
+        margin-left: 5vw;
+    }
+
+    .right {
+        margin-left: 45vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .box {
+        grid-template-columns: 1fr;
+    }
+
+    .content {
+        font-size: 2.5rem;
+    }
+
+    .email {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    input[type="email"] {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .right {
+        margin-left: 20vw;
+        margin-top: -50px;
+    }
+
+    .footer-links {
+        grid-template-columns: 1fr;
+    }
+}
