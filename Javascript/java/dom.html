@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .box{
+                height: 56px;
+                width: 56px;
+                border:2px solid black;
+                margin: 5px;
+                padding: 5px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class=" box1 box">box 1</div>
+            <div class=" box2 box">box 2</div>
+            <div class=" box3 box">box 3</div>
+            <div class="box4 box">box 4</div>
+            <div class="box5 box">box 5</div>
+        </div>
+        <script>
+            console.log(document.body.childNodes)
+            console.log(document.body.childNodes[0])
+            console.log(document.body.firstChild)
+            console.log(document.body.lastChild)
+            console.log(document.body.hasChildNodes)
+            console.log(document.body.childNodes[0].childNodes)
+            console.log(document.body.firstElementChild)
+            console.log(document.body.lastElementChild)
+            let cont = document.body.childNodes[1]
+            document.body.style.backgroundColor ="red"
+            // let box = document.body.firstElementChild.children.style.color ="blue"
+            console.log(cont.firstElementChild)
+            console.log(cont.lastElementChild.parentElement)
+            console.log(document.body.firstElementChild.childNodes)//all children
+            console.log(document.body.firstElementChild.children)// only elements
+            console.log(document.body.firstElementChild.children[0])
+            console.log(document.body.firstElementChild.children[1])
+            console.log(document.body.firstElementChild.children[2])
+            console.log(document.body.firstElementChild.children[2].nextElementSibling)
+            console.log(document.body.firstElementChild.children[2].previousElementSibling)
+            
+
+        </script>
+        
+    </body>
+</html>
