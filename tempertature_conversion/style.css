@@ -1,0 +1,46 @@
+form{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 4px; */
+    text-align: center;
+    background-color:black;
+    width: 560px; 
+    margin: auto;
+    padding: 15px;
+    border-radius: 5%;
+    margin-top: 12px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    background-color: crimson;
+    color: white;
+}
+
+#box{
+    font-size: 20px;
+    text-align: center;
+    padding :15px;
+    margin-bottom:12px ;
+    border-radius: 5%;
+    background-color: white;
+}
+
+button{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5%;
+    border: none;
+    margin-top: 25px;
+}
+
+button:hover{
+    background-color: darkred;
+}

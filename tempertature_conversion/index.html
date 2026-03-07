@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <form>
+            <h1>Temperature conversion</h1>
+            <input type="number" id="box" value="0">
+            <br>
+            <input type="radio" id = "toFarh" name ="unit">
+            <label for="toFarh">Celsius to Fahrenheit</label>
+            <br>
+
+
+            <input type="radio" id = "toCel" name ="unit">
+            <label for="toCel">Fahrenheit to Celsius</label>
+            <br>
+
+            <button type="button" onclick="convert()"> Submit </button>
+            <br>
+            <p id="result">Select a unit</p>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
